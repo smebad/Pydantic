@@ -27,7 +27,7 @@ def update_patient_data(patient: Patient):
     print(patient.married)
     print('updated')
 
-patient_info = {'name':'ebad', 'email':'mohammadebad1@hotmail.com', 'age': '28', 'weight': 68.7, 'married': False, 'allergies': ['milk', 'dust'], 'contact_details':{'phone':'1234567890', 'emergency':'656565'}}
+patient_info = {'name':'ebad', 'email':'mohammadebad1@hotmail.com', 'age': '65', 'weight': 68.7, 'married': False, 'allergies': ['milk', 'dust'], 'contact_details':{'phone':'1234567890', 'emergency':'656565'}}
 
 patient1 = Patient(**patient_info) 
 
